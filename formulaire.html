@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="liste.css">
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="formulaire.html"><img id="logo_header" src="images/gremlin_circle.png"></a>
+        </div>
+        <nav>
+            <article id="contour_menu_header">
+                <ul id="ul_row">
+                    <li class="li_header"><a class="a_header"
+                            href="https://www.milirose.com/exemple-liste-de-naissance.html" target="_blank">Milirose
+                        </a>
+                    </li>
+                    <li class="li_header"><a class="a_header"
+                            href="https://www.allobebe.fr/exemple-liste-naissance.html" target="_blank">Allo bébé </a>
+                    </li>
+                    <li class="li_header"><a class="a_header" href="https://www.bebitus.fr/" target="_blank">Bébitus
+                        </a>
+                    </li>
+                    <li class="li_header"><a class="a_header" href="https://www.roseoubleu.fr/" target="_blank">Rose ou
+                            bleu
+                        </a></li>
+                </ul>
+            </article>
+            <nav>
+    </header>
+    <main>
+        <h1>Formulaire de réservation/achat</h1>
+
+        <form class="mise_en_page_form">
+            <fieldset class="mise_en_page_fieldset">
+                <div class="ecart_dans_fieldset">
+                    <legend>Identité</legend>
+
+                    <label for="nom">Nom</label><br />
+                    <input type="text" placeholder="Sam" id="nom"><br />
+
+                    <label for="prenom">Prenom</label><br />
+                    <input type="text" placeholder="Laicasse" id="prenom">
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <div class="ecart_dans_fieldset">
+
+                    <legend>Contact</legend>
+                    <label for="email">@Email</label><br />
+                    <input type="email" placeholder="sam.laicasse@yahoo.fr" id="email"><br />
+
+                    <label for="tel">Numéro de téléphone</label><br />
+                    <input type="tel" placeholder="0780963502" id="tel">
+                </div>
+            </fieldset>
+        </form>
+        <form class="mise_en_page_form">
+            <fieldset class="mise_en_page_fieldset">
+                <div class="ecart_dans_fieldset">
+                    <legend>Produit sélectionné</legend>
+                    <label for="selectionner_un_produit">Sélectionnez un produit</label>
+                    <select id="selectionner_un_produit">
+                        <option>--Choisir produit--</option>
+                        <option class="option_bold_menu" disabled>--Sommeil--</option>
+                        <option>2 draps housse</option>
+                        <option>Commode bébé</option>
+                        <option>Berceau Cododo</option>
+                        <option class="option_bold_menu" disabled>--Décoration--</option>
+                        <option>Tipi</option>
+                        <option>Suspension décorative</option>
+                        <option class="option_bold_menu" disabled>--Eveil et jouet--</option>
+                        <option>Chariot</option>
+                        <option>Tapis</option>
+                        <option class="option_bold_menu" disabled>--Sécurité--</option>
+                        <option>Parc bébé</option>
+                        <option>Babyphone vidéo</option>
+                    </select><br />
+                    <label for="achat">Acheté</label> <br />
+                    <input type="radio" name="achat" id="achat"><br />
+
+                    <label for="achat">Réservé</label><br />
+                    <input type="radio" name="achat" id="achat"><br />
+                </div>
+            </fieldset>
+        </form>
+        <form class="mise_en_page_form">
+            <fieldset class="mise_en_page_fields">
+                <div class="ecart_dans_fieldset">
+                    <legend>Commentaire</legend>
+                    <textarea cols="40" rows="5" placeholder="Coucou la miff"></textarea>
+                </div>
+            </fieldset>
+        </form>
+        <section id="bouton_valider">
+            <a href="liste.html">
+                <input type="submit">
+            </a>
+        </section>
+
+
+    </main>
+    <footer>
+        <div id="contact_informatique">
+            <h3>Contact</h3>
+            <p id="cadre_contact">Pour des sites de bg appelez JoJo<br />
+                Prenom: Joris<br />
+                Nom: Le Boss<br />
+                Age: 22 ans<br />
+                <a class="a_decoration_none" href="mailto:joris.verguldezoone@laplateforme.io">Joris Le Boss</a></p>
+        </div>
+        <div id="formulaire">
+            <div id="cadre_formulaire">
+                <a class="a_decoration_none" href="liste.html">Retour à la liste</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
