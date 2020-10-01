@@ -304,8 +304,12 @@ h3 {
 }
 
 legend,
-.ecart_dans_fieldset {
+.ecart_dans_fieldset,
+input,
+label {
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .option_bold_menu {
